@@ -5,17 +5,17 @@
   "description": "This is a dummy extension",
   "options_page": "options.html",
   "icons": {
-    "16": "logo.png",
-    "32": "logo.png",
-    "48": "FavIcon.png",
-    "128": "FavIcon.png"
+    "16": "icon.png",
+    "32": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
   },
   "action": {
     "default_icon": {
-      "16": "logo.png",
-      "32": "logo.png",
-      "48": "FavIcon.png",
-      "128": "FavIcon.png"
+      "16": "icon.png",
+      "32": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
     }
   },
   "background": {
@@ -34,8 +34,10 @@
   "side_panel": {
     "default_path": "sidepanel.html"
   },
-  "web_accessible_resources": [{
-    "resources": ["src/index.css"],
-    "matches": ["<all_urls>"]
-  }]
+  "web_accessible_resources": [
+    {
+      "resources": ["src/index.css"],
+      "matches": ["<all_urls>"]
+    }
+  ]
 }
