@@ -1,0 +1,16 @@
+#dummy-ext-root {
+    box-sizing: border-box;
+    position: fixed;
+    right: 0px;
+    display: flex;
+    top: 0px;
+    height: calc(100vh - 20px);
+    width: 450px;
+    z-index: 500000000 !important;
+    background: rgb(255, 255, 255) !important;
+
+    margin:10px;
+    border-radius: 1rem;
+}
+
+
